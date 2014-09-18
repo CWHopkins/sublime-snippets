@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @ngdoc directive
+ * @name ${1}.directive:${2}
+ * @description ${3}
+ * @restrict ${4:AE}
+ * @element ${5:div}
+ * @scope
+ * @priority ${6:1000}
+ */
+]]></content>
+	<tabTrigger>ngdoc</tabTrigger>
+	<scope>source.js</scope>
+	<description>ngDoc notation for a directive.</description>
+</snippet>

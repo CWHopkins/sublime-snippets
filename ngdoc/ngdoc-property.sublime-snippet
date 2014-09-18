@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+/** 
+ * @ngdoc property
+ * @name ${1}#${2}
+ * @propertyOf ${1}
+ * @returns {${3}} ${4}
+ */
+]]></content>
+	<tabTrigger>ngdoc</tabTrigger>
+	<scope>source.js</scope>
+	<description>ngDoc notation for a property.</description>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @ngdoc controller
+ * @name ${1}.controller:${2}
+ * @description ${3}
+ * @requires ng.\$scope
+ * @requires ${4}
+ */
+]]></content>
+	<tabTrigger>ngdoc</tabTrigger>
+	<scope>source.js</scope>
+	<description>ngDoc notation for a controller.</description>
+</snippet>

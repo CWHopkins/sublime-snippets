@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @ngdoc event
+ * @name ${1}#${2}
+ * @eventOf ${1}
+ * @eventType ${3:broadcast} ${4}
+ */
+]]></content>
+	<tabTrigger>ngdoc</tabTrigger>
+	<scope>source.js</scope>
+	<description>ngDoc notation for an event.</description>
+</snippet>

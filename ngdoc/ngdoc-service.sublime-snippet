@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @ngdoc service
+ * @name ${1}.service:${2}
+ * @requires ${3}
+ * @function
+ * @description ${4}
+ */
+]]></content>
+	<tabTrigger>ngdoc</tabTrigger>
+	<scope>source.js</scope>
+	<description>ngDoc notation for a service.</description>
+</snippet>

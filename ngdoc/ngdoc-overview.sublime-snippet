@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @ngdoc overview
+ * @name ${1}
+ * @requires ${2}
+ * @description ${3}
+ */
+]]></content>
+	<tabTrigger>ngdoc</tabTrigger>
+	<scope>source.js</scope>
+	<description>ngDoc notation for a overview.</description>
+</snippet>

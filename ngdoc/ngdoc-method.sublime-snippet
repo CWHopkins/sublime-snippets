@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @ngdoc method
+ * @name ${1}#${2}
+ * @methodOf ${1}
+ * @description ${3}
+ * @returns {${4}} ${5}
+ * @example
+ * ```js
+ *
+ * ```
+ */
+]]></content>
+	<tabTrigger>ngdoc</tabTrigger>
+	<scope>source.js</scope>
+	<description>ngDoc notation for a filter.</description>
+</snippet>
