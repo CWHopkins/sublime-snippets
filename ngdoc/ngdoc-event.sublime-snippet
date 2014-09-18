@@ -7,7 +7,6 @@
  * @eventType ${3:broadcast} ${4}
  */
 ]]></content>
-	<tabTrigger>ngdoc</tabTrigger>
+	<tabTrigger>ngdoc-event</tabTrigger>
 	<scope>source.js</scope>
-	<description>ngDoc notation for an event.</description>
 </snippet>

@@ -8,7 +8,6 @@
  * @requires ${4}
  */
 ]]></content>
-	<tabTrigger>ngdoc</tabTrigger>
+	<tabTrigger>ngdoc-controller</tabTrigger>
 	<scope>source.js</scope>
-	<description>ngDoc notation for a controller.</description>
 </snippet>

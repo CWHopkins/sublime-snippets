@@ -10,7 +10,6 @@
  * @priority ${6:1000}
  */
 ]]></content>
-	<tabTrigger>ngdoc</tabTrigger>
+	<tabTrigger>ngdoc-directive</tabTrigger>
 	<scope>source.js</scope>
-	<description>ngDoc notation for a directive.</description>
 </snippet>

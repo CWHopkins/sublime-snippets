@@ -7,7 +7,6 @@
  * @returns {${3}} ${4}
  */
 ]]></content>
-	<tabTrigger>ngdoc</tabTrigger>
+	<tabTrigger>ngdoc-property</tabTrigger>
 	<scope>source.js</scope>
-	<description>ngDoc notation for a property.</description>
 </snippet>

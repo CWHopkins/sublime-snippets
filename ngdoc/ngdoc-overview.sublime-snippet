@@ -7,7 +7,6 @@
  * @description ${3}
  */
 ]]></content>
-	<tabTrigger>ngdoc</tabTrigger>
+	<tabTrigger>ngdoc-overview</tabTrigger>
 	<scope>source.js</scope>
-	<description>ngDoc notation for a overview.</description>
 </snippet>
