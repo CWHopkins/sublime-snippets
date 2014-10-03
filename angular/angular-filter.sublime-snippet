@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+angular.module('${1}').
+	filter('${2}', function (${3}) {
+		return function (${4}) {
+			
+			${5}
+
+		};
+	});
+]]></content>
+	<tabTrigger>angular-filter</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

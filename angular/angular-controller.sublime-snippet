@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+angular.module('${1}').
+	controller('${2}', function ($scope, ${3}) {
+
+	});
+]]></content>
+	<tabTrigger>angular-controller</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

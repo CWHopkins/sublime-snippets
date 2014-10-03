@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+angular.module('${1}').
+	directive('${2}', function (${3}) {
+		return {
+			restrict    : ${1:AE},
+			templateUrl : ${2},
+			scope       : ${3},
+			link        : function (scope, ele, attrs, ctrl) {
+
+				${4}
+
+			}
+		};
+	});
+]]></content>
+	<tabTrigger>angular-directive</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
