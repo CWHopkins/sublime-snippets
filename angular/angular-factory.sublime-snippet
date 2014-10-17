@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-angular.module('${1}').
+angular.module('${1:app}').
 	factory('${2}', function (${3}) {
 
 		${4}

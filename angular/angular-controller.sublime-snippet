@@ -1,7 +1,16 @@
 <snippet>
 	<content><![CDATA[
+/**
+ * @ngdoc controller
+ * @name ${1:app}.controller:${2}
+ * @description ${3}
+ * @requires ng.\$scope
+ * @requires ${4}
+ */
 angular.module('${1}').
-	controller('${2}', function ($scope, ${3}) {
+	controller('${2}', function (\$scope, ${4}) {
+
+		${5}
 
 	});
 ]]></content>
