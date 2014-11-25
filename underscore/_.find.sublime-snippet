@@ -3,7 +3,7 @@
 
 _.find(${1:list}, function (${2:value}, ${3:key}) {
 
-	${4}
+	return ${4};
 
 });
 
