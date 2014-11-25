@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+
+angular.module('${1:app}').
+
+	/**
+	 * @ngdoc controller
+	 * @name ${1:app}.controller:${2}
+	 * @description ${3}
+	 * @requires ng.\$scope
+	 */
+	controller('${2}', function (\$scope) {
+
+		${5}
+
+	});
+
+]]></content>
+	<tabTrigger>ng-controller</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

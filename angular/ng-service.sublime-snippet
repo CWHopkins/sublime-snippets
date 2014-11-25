@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+
+angular.module('${1:app}').
+
+	/**
+	 * @ngdoc service
+	 * @name ${1}.service:${2}
+	 * @requires ${4}
+	 * @function
+	 * @description ${5}
+	 */
+	service('${2}', function (${6}) {
+
+		${7}
+
+	});
+]]></content>
+	<tabTrigger>ng-service</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

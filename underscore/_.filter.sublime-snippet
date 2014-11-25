@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+
+_.filter(${1:list}, function (${2:value}, ${3:key}) {
+
+	return ${4};
+
+});
+
+]]></content>
+	<tabTrigger>_.filter</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

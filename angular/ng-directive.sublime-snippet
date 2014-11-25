@@ -1,0 +1,31 @@
+<snippet>
+	<content><![CDATA[
+
+angular.module('${1:app}').
+
+	/**
+	 * @ngdoc directive
+	 * @name ${1:app}.directive:${2}
+	 * @description ${3}
+	 * @restrict ${4:AE}
+	 * @element ${5:div}
+	 * @scope
+	 * @priority ${6:1000}
+	 */
+	directive('${2}', function (${7}) {
+		return {
+			restrict    : ${4},
+			templateUrl : ${8},
+			scope       : ${9},
+			link        : function (scope, ele, attrs, ctrl) {
+
+				${10}
+
+			}
+		};
+	});
+
+]]></content>
+	<tabTrigger>ng-directive</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

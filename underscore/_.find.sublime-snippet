@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+
+_.find(${1:list}, function (${2:value}, ${3:key}) {
+
+	${4}
+
+});
+
+]]></content>
+	<tabTrigger>_.find</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

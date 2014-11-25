@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+
+angular.module('${1:app}').
+	
+	/**
+	 * @ngdoc filter
+	 * @name ${1}.filter:${2}
+	 * @function
+	 * @description ${3}
+	 */
+	filter('${2}', function (${4}) {
+		return function (${5}) {
+
+			${6}
+
+		};
+	});
+
+]]></content>
+	<tabTrigger>ng-filter</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

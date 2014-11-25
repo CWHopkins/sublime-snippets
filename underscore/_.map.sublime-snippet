@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+
+_.map(${1:list}, function (${2:value}, ${3:key}) {
+
+	return ${4};
+
+});
+
+]]></content>
+	<tabTrigger>_.map</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

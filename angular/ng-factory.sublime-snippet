@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+angular.module('${1:app}').
+	factory('${2}', function (${3}) {
+
+		${4}
+
+	});
+]]></content>
+	<tabTrigger>ng-factory</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
